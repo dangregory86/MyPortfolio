@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         goUbiquitous = (Button) findViewById(R.id.go_ubiquitous);
         capstone = (Button) findViewById(R.id.capstone);
 
+
+
         //assign on click listeners to all the buttons
         popularMovies.setOnClickListener(new View.OnClickListener() {
             @Override
